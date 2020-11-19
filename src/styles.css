@@ -1,0 +1,79 @@
+:root {
+    --light-blue: #0071bc;
+    --gold: #d2bb5c;
+    --dark-blue: #384463; 
+    --light-gray: #f1f1f1;
+}
+
+
+
+body {
+    padding: 50px;
+}
+
+#main {
+    padding-top: 130px;
+}
+
+abbr {
+    color: var(--light-blue);
+}
+
+#leadership-art {
+    width: 85%;
+}
+
+.nav-link:hover {
+    color: var(--gold);
+}
+
+#lead-art-text {
+    margin-left: 300px;
+}
+
+#leadership-science {
+    width: 85%;
+}
+
+.team-img {
+    width: 500px;
+}
+
+#about {
+    background-color: var(--light-gray);
+    border: 10px solid var(--light-gray);
+    border-radius: 10px;
+}
+
+#about-blurb {
+    text-align: center;
+    width: 65%;
+}
+
+#founder-img {
+    border: 10px solid white;
+    border-radius: 10px;
+}
+
+#nicole-text {
+    background-color: white;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: var(--light-blue);
+    color: white;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+#email {
+    color: white;
+}
+
+#about-h1 {
+    padding-left: 500px;
+}
