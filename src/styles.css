@@ -15,6 +15,7 @@
 #navbar-brand {
     width: 30%;
     margin-left: 35%;
+    border: 2px solid black;
 }
 
 .nav-link {
