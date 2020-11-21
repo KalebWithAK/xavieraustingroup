@@ -5,92 +5,150 @@
     --light-gray: #f1f1f1;
 }
 
-#navbar {
-    position: sticky;
-    width: 100%;
-    height: 10%;
-}
-
-#navbar-brand {
-    width: 30%;
-    margin-left: 35%;
-}
-
-.nav-link {
-    color: black;
-}
-
-.nav-link:hover {
-
-}
-
 body {
-    padding: 50px;
-}
-
-#main {
-    padding-top: 130px;
 }
 
 abbr {
     color: var(--light-blue);
 }
 
-#leadership-art {
-    width: 85%;
+p, li {
+    color: gray;
 }
 
-.nav-link:hover {
-    color: var(--gold);
+#navbar {
+    position: sticky;
+    top: 0;
+
+    width: 100%;
+    height: 5%;
+    padding: 0.5% 0% 0.5% 0%;
+
+    display: flex;
+    align-content: center;
+
+    background-color: var(--light-gray);
 }
 
-#lead-art-text {
-    margin-left: 300px;
+#nav-logo {
+    margin-left: 42.5%;
+    width: 20%;
 }
 
-#leadership-science {
-    width: 85%;
+#nav-links {
+    width: 20%;
+
+    display: flex;
+    align-items: center;
+
+    margin-left: 15%;
 }
 
-.team-img {
-    width: 500px;
+.nav-link {
+    list-style: none;
+}
+
+.nav-link a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-link a:hover {
+    text-decoration: underline;
+}
+
+#main {
+    width: 95%;
+
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+#what-we-do {
+    width: 36%;
+
+    margin-right: 32%;
+    margin-left: 32%;
+
+    text-align: center;
+
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+}
+
+#column-container {
+    width: 100%;
+
+    display: flex;
+}
+
+.column {
+    width: 50%;
+}
+
+#left-column {
+}
+
+#science-heading {
+    margin-top: 7%;
+}
+
+#right-column {
+
+}
+
+#right-list {
+}
+
+#img-right {
+    margin-top: 2%;
+    margin-left: 10%;
+
+}
+.column-img {
+    width: 90%;
 }
 
 #about {
-    background-color: var(--light-gray);
-    border: 10px solid var(--light-gray);
-    border-radius: 10px;
-}
-
-#about-blurb {
     text-align: center;
-    width: 65%;
+
+    background-color: var(--light-gray);
+
+    border-radius: 15px;
+
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+
+    padding: 1% 0% 1% 0%;
 }
 
-#founder-img {
-    border: 10px solid white;
-    border-radius: 10px;
+#about-company {
+    width: 60%;
+
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
-#nicole-text {
-    background-color: white;
-    border-radius: 10px;
+#nicole-img {
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+
+    border: 5px solid var(--gold);
+    border-radius: 15px;
 }
 
-footer {
-    background-color: var(--light-blue);
-    color: white;
-    width: 100%;
+.nicole-text {
+    width: 50%;
+
+    margin-right: 25%;
+    margin-left: 25%;
 }
 
-a {
-    text-decoration: none;
+#contact {
+    text-align: center;
 }
 
-#email {
-    color: white;
-}
-
-#about-h1 {
-    padding-left: 500px;
+#copyright {
+    margin-top: 1%;
+    margin-bottom: 2.5%;
 }
