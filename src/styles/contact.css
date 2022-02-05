@@ -1,0 +1,17 @@
+/*
+1. Main
+*/
+
+/* Main */
+
+main > a, main > a:visited {
+    text-decoration: none;
+    color: var(--blue);
+}
+
+main > a:hover {
+    text-decoration: underline;
+    color: var(--gold);
+}
+
+/* End Main */

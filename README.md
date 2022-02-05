@@ -1,3 +1,10 @@
 # xavieraustingroup.github.io
 
-version 0.0.0
+version 1.0.0
+
+Pages:
+- Home
+    - art article
+    - science article
+- About
+- Contact

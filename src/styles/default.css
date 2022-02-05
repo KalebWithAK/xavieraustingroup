@@ -1,0 +1,95 @@
+/*
+1. Body
+2. Header
+3. Main
+4. Footer
+*/
+
+
+:root {
+    --blue: #0071bc;
+    --gold: #d2bb5c;
+    --dark-blue: #384463; 
+    --light-gray: #f1f1f1;
+}
+
+/* Body */
+
+body {
+    font-size: 24px;
+    /*background: */
+}
+
+p, li, label, a {
+    font-family: 'Nunito', sans-serif;
+}
+
+h1, h2, h3, h4, nav > a {
+    font-family: 'Mukta', sans-serif;
+}
+
+b {
+    text-decoration: none;
+    color: var(--blue);
+}
+
+/* End Body */
+
+
+/* Header */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5em 2em;
+    background-color: var(--light-gray);
+    border-radius: 0 0 1em 1em;
+    position: sticky;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    width: 20em;
+    justify-content: space-around;
+}
+
+nav > a, nav > a:visited {
+    text-decoration: none;
+    color: var(--blue);
+}
+
+nav > a.selected {
+    color: var(--gold);
+}
+
+/* End Header */
+
+
+/* Main */
+
+main {
+    width: 80%;
+    min-height: 21em;
+    margin: auto;
+}
+
+/* End Main */
+
+
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--blue);
+    border-radius: 1em 1em 0 0;
+    color: var(--light-gray);
+    padding: 0.5em 0;
+}
+
+footer > p {
+    width: 25%;
+}
+/* End Footer */

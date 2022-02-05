@@ -1,0 +1,22 @@
+{
+  "name": "xavieraustingroup",
+  "version": "1.0.0",
+  "description": "landing page for Xavier Austin Group LLC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KalebWithAK/xavieraustingroup.git"
+  },
+  "author": "Kaleb Dean",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KalebWithAK/xavieraustingroup/issues"
+  },
+  "homepage": "https://github.com/KalebWithAK/xavieraustingroup#readme",
+  "dependencies": {
+    "jquery": "^3.6.0"
+  }
+}

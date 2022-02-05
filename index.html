@@ -1,145 +1,98 @@
-<!doctype html>
-<html lang='en'>
+<!DOCTYPE html>
+<html lang="en">
     <head>
-        <meta charset='utf-8'>
-        <meta name='viewport' content='width=devie-width, initial-scale=1, shrinktofit=no'>
+        <meta charset="utf-8" />
 
-        <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'
-            integrity='sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T' crossorigin='anonymous'>
+        <title>Xavier Austin Group | Home</title>
 
-        <link rel='stylesheet' type='text/css' href='./src/styles.css'>
+        <link rel="icon" type="image/png" src="src/images/favicon.png" />
+        <link rel="stylesheet" type="text/css" href="src/styles/default.css" />
+        <link rel="stylesheet" type="text/css" href="src/styles/home.css" />
 
-        <title>Xavier Austin Group, LLC</title>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@500&display=swap" rel="stylesheet" />
     </head>
     <body>
-        <div id='navbar'>
-            <a id='nav-logo' href='#'>
-                <img src='./assets/header-logo-img.png'>
-            </a>
+        <header>
+            <a href="index.html"><img src="src/images/header-logo.png" alt="Xavier Austin Group Logo" /></a>
 
-            <ul id='nav-links'>
-                <li class='nav-link'>
-                    <a href='#about'>About</a>
-                </li>
-                <li class='nav-link'>
-                    <a href='#contact'>Contact</a>
-                </li>
-            </ul>
-        </div>
+            <nav>
+                <a class="selected" href="index.html">Home</a>
+                <a href="src/pages/about.html">About</a>
+                <a href="src/pages/contact.html">Contact</a>
+            </nav>
+        </header>
 
-        <div id='img-carousel' class='carousel slide' data-ride='carousel'>
+        <main>
+            <section id="intro">
+                <p>As organizations work to become more agile and resilient,</p>
+                <p>leaders must master both the <b>art</b> and <b>science</b> of leadership</p>
+                <p>in a rapidly changing landscape.</p>
+            </section>
 
-        </div>
-
-        <div id='main'>
-            <div id='what-we-do'>
-                <h2>WHAT WE DO</h2>
-                <p>As organizations work to become more agile and resilient, leaders must master both the art and science of leadership in
-                a rapidly changing landscape.</p>
-            </div>
-
-            <div id='column-container'>
-                <div id='left-column' class='column'>
-                    <img class='column-img' src='assets/huddle-img.jpg'>
-
-                    <h2 id='science-heading'>The <abbr>"Science"</abbr> of Leadership</h2>
-
-                    <p>Effective management requires competency in analysis, strategy design, execution and the ability to nurture an
-                    environment of healthy risk taking while mitigating risk simultaneously.</p>
-
-                    <p>Effective management requires competency in analysis, strategy design, and execution and the ability to nurture an
-                    environment of healthy risk taking while mitigating risk simultaneously. Our consulting and advisory services support
-                    clients in strategy design, implementation, and achieving results through:</p>
-                    <ul>
-                        <li>Customized Assessments</li>
-                        <li>Research and analysis</li>
-                        <li>Strategic planning facilitation and reporting</li>
-                        <li>Governance & Board Effectiveness Reviews</li>
-                        <li>Change Management Facilitation and Communications - Board level to Enterprise Wide</li>
-                        <li>Interim and Fractional Leadership</li>
-                    </ul>
+            <section id="slides">
+                <div id="art" class="slide">
+                    <h1>The <b>Art</b> of Leadership</h1>
                     
-                </div>
+                    <img class="slideImg" src="src/images/boardroom.jpg" alt="happy board members" />
 
-                <div id='right-column' class='column'>
-                    <h2 id='art-heading'>The <abbr>"Art"</abbr> of Leadership</abbr></h2>
+                    <div class="textContent">
+                        <p>Effective management requires competency in analysis, strategy design, and execution and the ability to nurture an
+                            environment of healthy risk taking while mitigating risk simultaneously. Our consulting and advisory services support
+                            clients in strategy design, implementation, and achieving results through:</p>
 
-                    <p>Leadership coaching is becoming the most valuable investment for organizations and individuals to enhance their culture,
-                    improve team performance, and accelerate individual success.</p>
-
-                    <p>We work with individuals and teams to:</p>
-                    <ul id='right-list'>
-                        <li>Cultivate Awareness</li>
-                        <li>Foster Commitment and Build Relational Capital</li>
-                        <li>Develop Culture and Engagement foundations that sponsor better decision making through</li>
                         <ul>
-                            <li>Collaboration</li>
-                            <li>­Diversity, Equity, and Inclusion</li>
-                            <li>Conflict Management</li>
+                            <li>Customized Assessments</li>
+                            <li>Research and analysis</li>
+                            <li>Strategic planning facilitation and reporting</li>
+                            <li>Governance & Board Effectiveness Reviews</li>
+                            <li>Change Management Facilitation and Communications - Board level to Enterprise Wide</li>
+                            <li>Interim and Fractional Leadership</li>
                         </ul>
-                    
-                        <li>Support Organizational Effectiveness through</li>
-                        <ul>
-                            <li>Customized Change Management Training & Facilitation</li>
-                            <li>Organization Structure & Role Design</li>
-                            <li>Succession Planning</li>
+                    </div>
+                </div>
+
+                <div id="science" class="slide">
+                    <h1>The <b>Science</b> of Leadership</h1>
+
+                    <div class="textContent">
+                        <p>Leadership coaching is becoming the most valuable investment for organizations and individuals to enhance their culture,
+                            improve team performance, and accelerate individual success.</p>
+        
+                        <p>We work with individuals and teams to:</p>
+                        <ul id='right-list'>
+                            <li>Cultivate Awareness</li>
+                            <li>Foster Commitment and Build Relational Capital</li>
+                            <li>Develop Culture and Engagement foundations that sponsor better decision making through</li>
+                            <ul>
+                                <li>Collaboration</li>
+                                <li>­Diversity, Equity, and Inclusion</li>
+                                <li>Conflict Management</li>
+                            </ul>
+                        
+                            <li>Support Organizational Effectiveness through</li>
+                            <ul>
+                                <li>Customized Change Management Training & Facilitation</li>
+                                <li>Organization Structure & Role Design</li>
+                                <li>Succession Planning</li>
+                            </ul>
                         </ul>
-                    </ul>
+                    </div>
 
-                    <img id='img-right' class='column-img' src='assets/boardroom-img.jpg'>
+                    <img class="slideImg" src="src/images/huddle.jpg" alt="a team huddle" />
                 </div>
-            </div>
 
-            <div id='about'>
-                <h2 id='about-heading'>About Us</h2>
-
-                <p id='about-company'>Xavier Austin Group, LLC is a woman and minority owned consulting company. Our mission is to catalyze organizational and
-                individual transformations that drive improved performance, agility and personal satisfaction. We meet our client’s
-                needs by supplementing our competencies in leadership development, change management, and coaching through partnerships
-                with other experienced firms and individuals, as needed.</p>
-
-                <img id='nicole-img' src='assets/founder-img.png'>
-
-                <div id='about-nicole'>
-                    <h3>Nicole Washington-Dean, Principal</h3>
-
-                    <p class='nicole-text'>Nicole serves her clients as principal consultant and coach. She has over 20 years of corporate experience in the retail
-                    industry. Her executive leadership experience includes roles in HR and Finance. She has worked directly with Boards of
-                    Directors, C-Suite, and functional leaders across the enterprise – driving improvement and results through strategy
-                    development and execution of change initiatives. We also partner with other firms to meet the needs of their clients.</p>
-
-                    <p class='nicole-text'>Nicole is adept at both the “art and science” of leadership. She has a dynamic ability to connect, empower, and catalyze
-                    change. She has led enterprise-wide culture initiatives for enterprise risk management, diversity and inclusion,
-                    employee engagement, performance management, and new executive onboarding. She obtained an Executive MBA concentrating
-                    on Strategy & Leadership from the University of North Carolina, Kenan-Flagler School of Business. Nicole is certified as
-                    a Senior Professional in HR, Change Management Professional, and Career Coach. She is also working towards designation
-                    as a Professional Certified Coach by the International Coaching Federation (ICF).</p>
-
-                    <p class='nicole-text'>Nicole is committed to service and building strong partnerships. She serves as Finance Committee Chair for the McColl
-                    Center of Art & Innovation in Charlotte, NC and volunteers at several organizations positively impacting the Charlotte
-                    community.</p>
+                <div id="slideControls">
+                    <input type="radio" name="slide" value="left" checked="checked" />
+                    <input type="radio" name="slide" value="right" />
                 </div>
-            </div>
+            </section>
+        </main>
 
-            <div id='contact'>
-                <h4>For more information, please contact us:</h4>
-
-                <a id='email' href='mailto:nicolewdean@xavieraustingroup.com'>nicolewdean@xavieraustingroup.com</a>
-
-                <p id='copyright'>Copyright © Xavier Austin Group. All Rights Reserved</p>
-            </div>
-        </div>
-
-
-
-        <script src='https://code.jquery.com/jquery-3.3.1.slim.min.js'
-            integrity='sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo'
-            crossorigin='anonymous'></script>
-        <script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js'
-            integrity='sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1'
-            crossorigin='anonymous'></script>
-        <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js'
-            integrity='sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM'
-            crossorigin='anonymous'></script>
+        <footer>
+            <p>Copyright &copy; Xavier Austin Group LLC All Rights Reserved</p>
+            <img src="src/images/footer-logo.png" alt="Xavier Austin Group Logo" />
+            <p>This page was designed and developed by Kaleb Dean</p>
+        </footer>
     </body>
 </html>
