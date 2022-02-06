@@ -8,6 +8,7 @@
 
 :root {
     --blue: #0071bc;
+    --light-blue: #00f6ed;
     --gold: #d2bb5c;
     --dark-blue: #384463; 
     --light-gray: #f1f1f1;
@@ -17,11 +18,8 @@
 
 body {
     font-size: 24px;
-    /*background: */
-}
-
-p, li, label, a {
     font-family: 'Nunito', sans-serif;
+    /*background: */
 }
 
 h1, h2, h3, h4, nav > a {
