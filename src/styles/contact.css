@@ -16,15 +16,10 @@ main > a, main > a:visited {
 }
 
 main > a:hover {
+    position: relative;
     text-decoration: underline;
     color: var(--gold);
+    animation: slideRight 0.5s linear;
 }
 
 /* End Main */
-
-
-/* Mission */
-
-
-
-/* End Mission */

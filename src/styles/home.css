@@ -74,15 +74,11 @@ main {
 
 #slideControls {
     visibility: hidden;
-    /*width: 2em;
+    width: 2em;
     margin: auto;
     margin-bottom: 2em;
     display: flex;
-    justify-content: space-around;*/
-}
-
-#slideControls input {
-
+    justify-content: space-around;
 }
 
 /* End Slides */
@@ -90,16 +86,6 @@ main {
 
 /* Animations */
 
-@keyframes fadeInUp {
-    from {
-        opacity: 0%;
-        top: 3em;
 
-    }
-    to {
-        opacity: 100%;
-        top: 0em;
-    }
-}
 
 /* End Animations */

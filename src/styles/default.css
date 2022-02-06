@@ -19,7 +19,6 @@
 body {
     font-size: 24px;
     font-family: 'Nunito', sans-serif;
-    /*background: */
 }
 
 h1, h2, h3, h4, nav > a {
@@ -29,6 +28,13 @@ h1, h2, h3, h4, nav > a {
 b {
     text-decoration: none;
     color: var(--blue);
+}
+
+h1 {
+    position: relative;
+    animation: fadeInUp 1.5s ease;
+    margin-bottom: 1em;
+    margin-top: 2em;
 }
 
 /* End Body */
@@ -47,6 +53,15 @@ header {
     top: 0;
 }
 
+
+header > a > img {
+    position: relative;
+    animation: slideRight 0.5s linear;
+}
+header > a > img:hover {
+    animation: slideDown 0.5s linear;
+}
+
 nav {
     display: flex;
     width: 20em;
@@ -54,13 +69,19 @@ nav {
 }
 
 nav > a, nav > a:visited {
+    position: relative;
     text-decoration: none;
     color: var(--blue);
 }
+nav > a:hover {
+    color: var(--dark-blue);
+    animation: slideDown 0.25s linear;
+}
 
-nav > a.selected {
+nav a.selected, nav a.selected:hover {
     color: var(--gold);
 }
+
 
 /* End Header */
 
@@ -90,4 +111,46 @@ footer {
 footer > p {
     width: 25%;
 }
+
 /* End Footer */
+
+
+/* Animations */
+
+@keyframes slideDown {
+    0% {
+        top: 0em;
+    }
+    50% {
+        top: 0.25em;
+    }
+    100% {
+        top: 0em;
+    }
+}
+
+@keyframes slideRight {
+    0% {
+        left: 0em;
+    }
+    50% {
+        left: 1em;
+    }
+    100% {
+        left: 0em;
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0%;
+        top: 3em;
+
+    }
+    to {
+        opacity: 100%;
+        top: 0em;
+    }
+}
+
+/* End Animations */
