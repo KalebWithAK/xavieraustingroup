@@ -23,3 +23,17 @@ main > a:hover {
 }
 
 /* End Main */
+
+
+@media (max-width: 1000px) {
+    body {
+        height: 100%;
+    }
+
+    footer {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+}
+

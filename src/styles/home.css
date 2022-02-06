@@ -3,6 +3,7 @@
 2. Intro
 3. Slides
 4. Animations
+5. Responsiveness
 */
 
 
@@ -38,8 +39,6 @@ main {
 #intro span:nth-child(3) {
     animation: fadeInUp 1.5s ease;
 }
-
-
 
 /* End Intro */
 
@@ -95,3 +94,16 @@ main {
 }
 
 /* End Animations */
+
+
+/* Responsiveness */
+
+@media (max-width: 1000px) {
+    .slide {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* End Responsiveness */

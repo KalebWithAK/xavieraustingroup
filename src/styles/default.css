@@ -3,6 +3,8 @@
 2. Header
 3. Main
 4. Footer
+5. Animations
+6. Responsiveness
 */
 
 
@@ -51,6 +53,7 @@ header {
     border-radius: 0 0 1em 1em;
     position: sticky;
     top: 0;
+    z-index: 1;
 }
 
 
@@ -166,3 +169,14 @@ footer > p {
 }
 
 /* End Animations */
+
+
+/* Responsiveness */
+
+@media (max-width: 1000px) {
+    body {
+        font-size: 20px;
+    }
+}
+
+/* End Responsiveness */
