@@ -17,14 +17,16 @@ main {
 /* Intro */
 
 #intro {
-    width: 27em;
+    width: 33.5em;
     margin: auto;
     margin-top: 3em;
     margin-bottom: 3em;
 }
 
 #intro span {
+    display: block;
     position: relative;
+    font-size: 30px;
 }
 
 #intro span:nth-child(1) {
