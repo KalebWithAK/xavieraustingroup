@@ -1,8 +1,14 @@
 /*
 1. Main
+2. Mission
 */
 
 /* Main */
+
+main {
+    width: 60%;
+    min-height: 19.5em;
+}
 
 main > a, main > a:visited {
     text-decoration: none;
@@ -15,3 +21,10 @@ main > a:hover {
 }
 
 /* End Main */
+
+
+/* Mission */
+
+
+
+/* End Mission */
