@@ -1,6 +1,8 @@
 /* 
 1. Main
-2. Slides
+2. Intro
+3. Slides
+4. Animations
 */
 
 
@@ -9,13 +11,35 @@
 main {
     width: 90%;
 }
+/* End Main */
 
-#intro{
+
+/* Intro */
+
+#intro {
     width: 27em;
     margin: auto;
+    margin-top: 3em;
+    margin-bottom: 3em;
 }
 
-/* End Main */
+#intro span {
+    position: relative;
+}
+
+#intro span:nth-child(1) {
+    animation: fadeInUp 0.5s ease;
+}
+#intro span:nth-child(2) {
+    animation: fadeInUp 1s ease;
+}
+#intro span:nth-child(3) {
+    animation: fadeInUp 1.5s ease;
+}
+
+
+
+/* End Intro */
 
 
 /* Slides */
@@ -48,6 +72,32 @@ main {
 
 #slideControls {
     visibility: hidden;
+    /*width: 2em;
+    margin: auto;
+    margin-bottom: 2em;
+    display: flex;
+    justify-content: space-around;*/
+}
+
+#slideControls input {
+
 }
 
 /* End Slides */
+
+
+/* Animations */
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0%;
+        top: 3em;
+
+    }
+    to {
+        opacity: 100%;
+        top: 0em;
+    }
+}
+
+/* End Animations */
