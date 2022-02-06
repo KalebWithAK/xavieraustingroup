@@ -59,7 +59,7 @@ header > a > img {
     animation: slideRight 0.5s linear;
 }
 header > a > img:hover {
-    animation: slideDown 0.5s linear;
+    animation: fadeOutIn 0.5s linear;
 }
 
 nav {
@@ -144,12 +144,24 @@ footer > p {
 @keyframes fadeInUp {
     from {
         opacity: 0%;
-        top: 3em;
+        top: 1em;
 
     }
     to {
         opacity: 100%;
         top: 0em;
+    }
+}
+
+@keyframes fadeOutIn {
+    0% {
+        opacity: 100%;
+    }
+    50% {
+        opacity: 50%;
+    }
+    100% {
+        opacity: 100%;
     }
 }
 
