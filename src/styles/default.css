@@ -59,7 +59,6 @@ header {
 
 header > a > img {
     position: relative;
-    animation: slideRight 0.5s linear;
 }
 header > a > img:hover {
     animation: fadeOutIn 0.5s linear;
@@ -176,6 +175,10 @@ footer > p {
 @media (max-width: 1000px) {
     body {
         font-size: 20px;
+    }
+
+    .selected {
+        animation: slideDown 0.25s linear;
     }
 }
 
